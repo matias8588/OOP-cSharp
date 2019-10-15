@@ -13,6 +13,11 @@ namespace OOP
             RetailSalesPerson bruceTheRetailSalesPerson = new RetailSalesPerson("Bruce", "Banner");
             Console.WriteLine(bruceTheRetailSalesPerson.Fullname);
             bruceTheRetailSalesPerson.Sell();
+            bruceTheRetailSalesPerson.Develop();
+
+            WebDeveloper mikeTheWebDeveloper = new WebDeveloper("React");
+            mikeTheWebDeveloper.Code();
+            mikeTheWebDeveloper.Develop();
         }
     }
 }
