@@ -9,6 +9,10 @@ namespace OOP
             CarSalesman steveTheSalesman = new CarSalesman("Steve", "Rogers");
             Console.WriteLine(steveTheSalesman.Fullname);
             steveTheSalesman.Sell();
+
+            RetailSalesPerson bruceTheRetailSalesPerson = new RetailSalesPerson("Bruce", "Banner");
+            Console.WriteLine(bruceTheRetailSalesPerson.Fullname);
+            bruceTheRetailSalesPerson.Sell();
         }
     }
 }
